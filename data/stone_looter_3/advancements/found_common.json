@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": "You found Common",
+        "description": "You have found Common chest!",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "stone_looter_3:stone_looter_3",
+    "criteria": {
+        "criteria": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "stone_looter_3:chests/common"
+            }
+        }
+    },
+    "rewards": {
+        "function": "stone_looter_3:reset_all_advancements"
+    }
+}

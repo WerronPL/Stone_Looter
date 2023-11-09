@@ -1,0 +1,261 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:diorite",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:diorite",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:stone",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:chest",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{BlockEntityTag:{LootTable:\"stone_looter_3:chests/common\"}, display:{Name:'[{\"text\":\"COMMON CHEST\",\"color\":\"white\",\"italic\": false,\"bold\": true}]'}}"
+                                },
+                                {
+                                    "function": "apply_bonus",
+                                    "enchantment": "fortune",
+                                    "formula": "ore_drops"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                },
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.01
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:stone",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:chest",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{BlockEntityTag:{LootTable:\"stone_looter_3:chests/uncommon\"}, display:{Name:'[{\"text\":\"UNCOMMON CHEST\",\"color\":\"green\",\"italic\": false,\"bold\": true}]'}}"
+                                },
+                                {
+                                    "function": "apply_bonus",
+                                    "enchantment": "fortune",
+                                    "formula": "ore_drops"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                },
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.005
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:stone",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:chest",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{BlockEntityTag:{LootTable:\"stone_looter_3:chests/rare\"}, display:{Name:'[{\"text\":\"RARE CHEST\",\"color\":\"blue\",\"italic\": false,\"bold\": true}]'}}"
+                                },
+                                {
+                                    "function": "apply_bonus",
+                                    "enchantment": "fortune",
+                                    "formula": "ore_drops"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                },
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.002
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:stone",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "enchantments": [
+                                            {
+                                                "enchantment": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:chest",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{BlockEntityTag:{LootTable:\"stone_looter_3:chests/epic\"}, display:{Name:'[{\"text\":\"EPIC CHEST\",\"color\":\"dark_purple\",\"italic\": false,\"bold\": true}]'}}"
+                                },
+                                {
+                                    "function": "apply_bonus",
+                                    "enchantment": "fortune",
+                                    "formula": "ore_drops"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                },
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.00
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:chest",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{BlockEntityTag:{LootTable:\"stone_looter_3:chests/legendary\"}, display:{Name:'[{\"text\":\"LEGENDARY CHEST\",\"color\":\"gold\",\"italic\": false,\"bold\": true}]'}}"
+                                },
+                                {
+                                    "function": "apply_bonus",
+                                    "enchantment": "fortune",
+                                    "formula": "ore_drops"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                },
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.001
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:blocks/diorite"
+}

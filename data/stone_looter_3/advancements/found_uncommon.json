@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "title": "You found Uncommon",
+        "description": "You have found Uncommon chest!",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "stone_looter_3:found_common",
+    "criteria": {
+        "criteria": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "stone_looter_3:chests/uncommon"
+            }
+        }
+    },
+    "rewards": {
+        "function": "stone_looter_3:reset_all_advancements"
+    }
+}

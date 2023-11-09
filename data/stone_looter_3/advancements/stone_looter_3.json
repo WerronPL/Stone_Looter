@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Stone Looter 3",
+        "description": "This datapack was made by WerronPL",
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:stone_looter_3",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
