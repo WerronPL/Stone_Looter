@@ -2,7 +2,7 @@
    <h1>Stone Looter</h1>
     <p>Hello WerronPL here!</p>
     <p>Stone Looter is a second iteration of my old datapack... it was based on commands before and was quite laggy.</p>
-    <h2>Now it is Stone Looter 3 even and it comes with whole rewrite and lots of stuff as I have time to develop this pack!</h2>
+    <h2>Now it is Stone Looter v3 even and it comes with whole rewrite and lots of stuff as I have time to develop this pack!</h2>
     <p>Now it is made better, by using loot tables and that ensure balance and stability.</p>
     <p>If you think that is a copy of Mine Treasure datapack... Just try it... You will see the difference.</p>
     <h2>What it offers:</h2>
