@@ -13,10 +13,6 @@
                         {
                             "function": "limit_count",
                             "limit": 8
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Unstackable"
                         }
                     ]
                 },
@@ -28,10 +24,6 @@
                         {
                             "function": "limit_count",
                             "limit": 8
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "U joking... RIGHT?"
                         }
                     ]
                 },
@@ -43,10 +35,6 @@
                         {
                             "function": "limit_count",
                             "limit": 4
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Smelt it yourself... lol"
                         }
                     ]
                 },
@@ -58,10 +46,6 @@
                         {
                             "function": "limit_count",
                             "limit": 4
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "DIY Copper: Craft it or Copper Off"
                         }
                     ]
                 },
@@ -73,10 +57,6 @@
                         {
                             "function": "limit_count",
                             "limit": 4
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Shiny but not quite yet..."
                         }
                     ]
                 },
@@ -88,10 +68,6 @@
                         {
                             "function": "limit_count",
                             "limit": 2
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "JACKPOT!... was it worth it?"
                         }
                     ]
                 }

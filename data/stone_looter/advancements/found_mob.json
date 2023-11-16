@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone_pickaxe"
+            "item": "minecraft:creeper_head"
         },
-        "title": "You found Uncommon",
-        "description": "You have found Uncommon chest!",
+        "title": "You found Mob",
+        "description": "You have found Mob chest!",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": true
@@ -16,7 +16,7 @@
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{BlockEntityTag:{LootTable:\"stone_looter:chests/uncommon\"}, display:{Name:'[{\"text\":\"UNCOMMON CHEST\",\"color\":\"green\",\"italic\": false,\"bold\": true}]'}}"
+                        "nbt": "{BlockEntityTag:{LootTable:\"stone_looter:chests/mob\"}, display:{Name:'[{\"text\":\"MOB CHEST\",\"color\":\"red\",\"italic\": false,\"bold\": true}]'}}"
                     }
                 ]
             }

@@ -12,9 +12,13 @@
     "parent": "stone_looter:stone_looter",
     "criteria": {
         "criteria": {
-            "trigger": "player_generates_container_loot",
+            "trigger": "inventory_changed",
             "conditions": {
-                "loot_table": "stone_looter:chests/common"
+                "items": [
+                    {
+                        "nbt": "{BlockEntityTag:{LootTable:\"stone_looter:chests/common\"}, display:{Name:'[{\"text\":\"COMMON CHEST\",\"color\":\"white\",\"italic\": false,\"bold\": true}]'}}"
+                    }
+                ]
             }
         }
     },

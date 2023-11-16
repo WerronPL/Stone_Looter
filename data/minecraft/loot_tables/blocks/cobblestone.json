@@ -10,7 +10,7 @@
                     "children": [
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:blackstone",
+                            "name": "minecraft:cobblestone",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",
@@ -29,7 +29,7 @@
                         },
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:blackstone",
+                            "name": "minecraft:cobblestone",
                             "conditions": [
                                 {
                                     "condition": "minecraft:survives_explosion"
@@ -80,7 +80,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.02
+                                    "chance": 0.01
                                 }
                             ]
                         }
@@ -128,7 +128,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.01
+                                    "chance": 0.005
                                 }
                             ]
                         }
@@ -176,7 +176,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.004
+                                    "chance": 0.002
                                 }
                             ]
                         }
@@ -224,7 +224,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.002
+                                    "chance": 0.001
                                 }
                             ]
                         },
@@ -248,7 +248,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.001
+                                    "chance": 0.0005
                                 }
                             ]
                         },
@@ -272,7 +272,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.004
+                                    "chance": 0.002
                                 }
                             ]
                         }
@@ -281,5 +281,5 @@
             ]
         }
     ],
-    "random_sequence": "minecraft:blocks/andesite"
+    "random_sequence": "minecraft:blocks/cobblestone"
 }

@@ -12,9 +12,13 @@
     "parent": "stone_looter:found_rare",
     "criteria": {
         "criteria": {
-            "trigger": "player_generates_container_loot",
+            "trigger": "inventory_changed",
             "conditions": {
-                "loot_table": "stone_looter:chests/epic"
+                "items": [
+                    {
+                        "nbt": "{BlockEntityTag:{LootTable:\"stone_looter:chests/epic\"}, display:{Name:'[{\"text\":\"EPIC CHEST\",\"color\":\"dark_purple\",\"italic\": false,\"bold\": true}]'}}"
+                    }
+                ]
             }
         }
     },

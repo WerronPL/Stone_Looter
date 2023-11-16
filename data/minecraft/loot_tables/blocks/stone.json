@@ -224,7 +224,7 @@
                 },
                 {
                   "condition": "random_chance",
-                  "chance": 0.00
+                  "chance": 0.001
                 }
               ]
             },
@@ -248,7 +248,31 @@
                 },
                 {
                   "condition": "random_chance",
-                  "chance": 0.001
+                  "chance": 0.0005
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:chest",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{BlockEntityTag:{LootTable:\"stone_looter:chests/mob\"}, display:{Name:'[{\"text\":\"MOB CHEST\",\"color\":\"red\",\"italic\": false,\"bold\": true}]'}}"
+                },
+                {
+                  "function": "apply_bonus",
+                  "enchantment": "fortune",
+                  "formula": "ore_drops"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "condition": "random_chance",
+                  "chance": 0.002
                 }
               ]
             }

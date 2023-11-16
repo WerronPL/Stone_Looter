@@ -12,9 +12,13 @@
     "parent": "stone_looter:found_uncommon",
     "criteria": {
         "criteria": {
-            "trigger": "player_generates_container_loot",
+            "trigger": "inventory_changed",
             "conditions": {
-                "loot_table": "stone_looter:chests/rare"
+                "items": [
+                    {
+                        "nbt": "{BlockEntityTag:{LootTable:\"stone_looter:chests/rare\"}, display:{Name:'[{\"text\":\"RARE CHEST\",\"color\":\"blue\",\"italic\": false,\"bold\": true}]'}}"
+                    }
+                ]
             }
         }
     },

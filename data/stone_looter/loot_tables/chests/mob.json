@@ -7,64 +7,63 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spawner",
+                    "name": "minecraft:gunpowder",
                     "weight": 100,
                     "functions": [
                         {
                             "function": "limit_count",
-                            "limit": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{BlockEntityTag:{SpawnData:{entity:{id:\"minecraft:creeper\"}}}, display:{Name:'{\"text\":\"I wonder... what does it spawn?\"}'}}"
+                            "limit": 8
                         }
                     ]
                 },
                 {
-                    "type": "minecraft:loot_table",
-                    "name": "stone_looter_3:chests/legendary",
-                    "weight": 50
+                    "type": "minecraft:item",
+                    "name": "minecraft:string",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "limit_count",
+                            "limit": 8
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:netherite_block",
+                    "name": "minecraft:bone",
                     "weight": 20,
                     "functions": [
                         {
                             "function": "limit_count",
-                            "limit": 1
+                            "limit": 8
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:debug_stick",
+                    "name": "minecraft:spider_eye",
                     "weight": 10,
                     "functions": [
                         {
                             "function": "limit_count",
-                            "limit": 1
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "It is not a debug stick they say..."
+                            "limit": 8
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:end_portal_frame",
+                    "name": "minecraft:ender_pearl",
                     "weight": 5,
                     "functions": [
                         {
                             "function": "limit_count",
-                            "limit": 1
+                            "limit": 2
                         }
                     ]
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:beacon",
+                    "name": "minecraft:music_disc_13",
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "limit_count",

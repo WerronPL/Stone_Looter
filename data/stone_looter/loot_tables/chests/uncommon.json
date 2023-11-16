@@ -13,10 +13,6 @@
                         {
                             "function": "limit_count",
                             "limit": 6
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Unlimited... Poweeeerrrr!"
                         }
                     ]
                 },
@@ -28,10 +24,6 @@
                         {
                             "function": "limit_count",
                             "limit": 6
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Enchanting... but first..."
                         }
                     ]
                 },
@@ -43,10 +35,6 @@
                         {
                             "function": "limit_count",
                             "limit": 4
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Villager's wet dream!"
                         }
                     ]
                 },
@@ -58,10 +46,6 @@
                         {
                             "function": "limit_count",
                             "limit": 4
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Let me lighten up your day!"
                         }
                     ]
                 },

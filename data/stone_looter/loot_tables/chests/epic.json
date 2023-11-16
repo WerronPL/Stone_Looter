@@ -15,10 +15,6 @@
                             "limit": 1
                         },
                         {
-                            "function": "set_name",
-                            "name": "Better luck next time!"
-                        },
-                        {
                             "function": "set_potion",
                             "id": "luck"
                         }
@@ -47,10 +43,6 @@
                         {
                             "function": "limit_count",
                             "limit": 4
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "From noob to pro | #1 | w/ luck"
                         }
                     ]
                 },
@@ -62,10 +54,6 @@
                         {
                             "function": "limit_count",
                             "limit": 2
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Upgrades, people... UPGRADES!!!"
                         }
                     ]
                 },
@@ -91,10 +79,6 @@
                         {
                             "function": "limit_count",
                             "limit": 2
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "village.zip"
                         }
                     ]
                 }

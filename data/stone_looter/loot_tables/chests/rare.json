@@ -46,10 +46,6 @@
                         {
                             "function": "limit_count",
                             "limit": 2
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Lets say... if you would have had enough..."
                         }
                     ]
                 },
@@ -61,10 +57,6 @@
                         {
                             "function": "limit_count",
                             "limit": 16
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Let it glow!"
                         }
                     ]
                 },
@@ -99,10 +91,6 @@
                         {
                             "function": "limit_count",
                             "limit": 1
-                        },
-                        {
-                            "function": "set_name",
-                            "name": "Twinkle, twinkle, little star..."
                         }
                     ]
                 }

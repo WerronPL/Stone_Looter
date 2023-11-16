@@ -12,9 +12,13 @@
     "parent": "stone_looter:found_epic",
     "criteria": {
         "criteria": {
-            "trigger": "player_generates_container_loot",
+            "trigger": "inventory_changed",
             "conditions": {
-                "loot_table": "stone_looter:chests/legendary"
+                "items": [
+                    {
+                        "nbt": "{BlockEntityTag:{LootTable:\"stone_looter:chests/legendary\"}, display:{Name:'[{\"text\":\"LEGENDARY CHEST\",\"color\":\"gold\",\"italic\": false,\"bold\": true}]'}}"
+                    }
+                ]
             }
         }
     },
