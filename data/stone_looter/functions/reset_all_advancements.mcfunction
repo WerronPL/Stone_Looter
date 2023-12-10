@@ -4,3 +4,4 @@ advancement revoke @p from stone_looter:found_rare
 advancement revoke @p from stone_looter:found_epic
 advancement revoke @p from stone_looter:found_legendary
 advancement revoke @p from stone_looter:found_mob
+advancement revoke @p from stone_looter:found_inception

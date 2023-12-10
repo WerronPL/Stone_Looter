@@ -10,40 +10,16 @@
                     "children": [
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:deepslate",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "enchantments": [
-                                            {
-                                                "enchantment": "minecraft:silk_touch",
-                                                "levels": {
-                                                    "min": 1
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "minecraft:item",
                             "name": "minecraft:cobbled_deepslate",
                             "conditions": [
                                 {
                                     "condition": "minecraft:survives_explosion"
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:alternatives",
-                    "children": [
+                        },
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:stone",
+                            "name": "minecraft:deepslate",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",
@@ -80,31 +56,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.04
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:alternatives",
-                    "children": [
-                        {
-                            "type": "minecraft:item",
-                            "name": "minecraft:stone",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "enchantments": [
-                                            {
-                                                "enchantment": "minecraft:silk_touch",
-                                                "levels": {
-                                                    "min": 1
-                                                }
-                                            }
-                                        ]
-                                    }
+                                    "chance": 0.01
                                 }
                             ]
                         },
@@ -115,6 +67,11 @@
                                 {
                                     "function": "minecraft:set_nbt",
                                     "tag": "{BlockEntityTag:{LootTable:\"stone_looter:chests/uncommon\"}, display:{Name:'[{\"text\":\"UNCOMMON CHEST\",\"color\":\"green\",\"italic\": false,\"bold\": true}]'}}"
+                                },
+                                {
+                                    "function": "apply_bonus",
+                                    "enchantment": "fortune",
+                                    "formula": "ore_drops"
                                 }
                             ],
                             "conditions": [
@@ -123,31 +80,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.02
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:alternatives",
-                    "children": [
-                        {
-                            "type": "minecraft:item",
-                            "name": "minecraft:stone",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "enchantments": [
-                                            {
-                                                "enchantment": "minecraft:silk_touch",
-                                                "levels": {
-                                                    "min": 1
-                                                }
-                                            }
-                                        ]
-                                    }
+                                    "chance": 0.005
                                 }
                             ]
                         },
@@ -171,31 +104,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.024
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:alternatives",
-                    "children": [
-                        {
-                            "type": "minecraft:item",
-                            "name": "minecraft:stone",
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:match_tool",
-                                    "predicate": {
-                                        "enchantments": [
-                                            {
-                                                "enchantment": "minecraft:silk_touch",
-                                                "levels": {
-                                                    "min": 1
-                                                }
-                                            }
-                                        ]
-                                    }
+                                    "chance": 0.002
                                 }
                             ]
                         },
@@ -219,7 +128,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.008
+                                    "chance": 0.001
                                 }
                             ]
                         },
@@ -243,7 +152,7 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.002
+                                    "chance": 0.0005
                                 }
                             ]
                         },
@@ -267,7 +176,31 @@
                                 },
                                 {
                                     "condition": "random_chance",
-                                    "chance": 0.004
+                                    "chance": 0.002
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:chest",
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_nbt",
+                                    "tag": "{BlockEntityTag:{LootTable:\"stone_looter:chests/inception\"}, display:{Name:'[{\"text\":\"INCEPTION CHEST\",\"color\":\"white\",\"italic\": false,\"bold\": true}]'}}"
+                                },
+                                {
+                                    "function": "apply_bonus",
+                                    "enchantment": "fortune",
+                                    "formula": "ore_drops"
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:survives_explosion"
+                                },
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.002
                                 }
                             ]
                         }

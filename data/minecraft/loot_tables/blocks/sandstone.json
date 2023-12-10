@@ -10,7 +10,7 @@
                     "children": [
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:netherrack",
+                            "name": "minecraft:sandstone",
                             "conditions": [
                                 {
                                     "condition": "minecraft:survives_explosion"
@@ -19,7 +19,7 @@
                         },
                         {
                             "type": "minecraft:item",
-                            "name": "minecraft:netherrack",
+                            "name": "minecraft:sandstone",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",
@@ -209,5 +209,5 @@
             ]
         }
     ],
-    "random_sequence": "minecraft:blocks/netherrack"
+    "random_sequence": "minecraft:blocks/sandstone"
 }

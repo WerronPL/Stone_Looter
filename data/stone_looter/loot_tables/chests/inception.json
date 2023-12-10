@@ -1,0 +1,101 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chest",
+                    "weight": 100,
+                    "functions": [
+                        {
+                            "function": "limit_count",
+                            "limit": 4
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BlockEntityTag:{LootTable:\"stone_looter:chests/common\"}, display:{Name:'[{\"text\":\"COMMON CHEST\",\"color\":\"white\",\"italic\": false,\"bold\": true}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chest",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "limit_count",
+                            "limit": 4
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BlockEntityTag:{LootTable:\"stone_looter:chests/uncommon\"}, display:{Name:'[{\"text\":\"UNCOMMON CHEST\",\"color\":\"green\",\"italic\": false,\"bold\": true}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chest",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "limit_count",
+                            "limit": 4
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BlockEntityTag:{LootTable:\"stone_looter:chests/rare\"}, display:{Name:'[{\"text\":\"RARE CHEST\",\"color\":\"blue\",\"italic\": false,\"bold\": true}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chest",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "limit_count",
+                            "limit": 4
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BlockEntityTag:{LootTable:\"stone_looter:chests/epic\"}, display:{Name:'[{\"text\":\"EPIC CHEST\",\"color\":\"dark_purple\",\"italic\": false,\"bold\": true}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chest",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "limit_count",
+                            "limit": 4
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BlockEntityTag:{LootTable:\"stone_looter:chests/legendary\"}, display:{Name:'[{\"text\":\"LEGENDARY CHEST\",\"color\":\"gold\",\"italic\": false,\"bold\": true}]'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "limit_count",
+                            "limit": 4
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BlockEntityTag:{LootTable:\"stone_looter:chests/mob\"}, display:{Name:'[{\"text\":\"MOB CHEST\",\"color\":\"red\",\"italic\": false,\"bold\": true}]'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

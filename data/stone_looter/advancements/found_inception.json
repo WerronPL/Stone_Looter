@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "title": "You found Mob",
+        "description": "You have found Mob chest!",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "stone_looter:found_common",
+    "criteria": {
+        "criteria": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{BlockEntityTag:{LootTable:\"stone_looter:chests/inception\"}, display:{Name:'[{\"text\":\"INCEPTION CHEST\",\"color\":\"white\",\"italic\": false,\"bold\": true}]'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "stone_looter:reset_all_advancements"
+    }
+}
